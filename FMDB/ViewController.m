@@ -15,6 +15,12 @@
 
 @implementation ViewController
 
+
+-(void)testFunction{
+
+    NSLog(@"testFunction");
+}
+
 - (IBAction)openSqlite:(id)sender {
     [[FMDBManager shareManager]createFMDB];;
 }
